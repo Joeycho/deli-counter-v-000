@@ -8,5 +8,6 @@ def line(katz_deli)
       puts "current place is #{counter}"
       puts "name is #{person}"
       counter +=1
+    end
   end
 end
