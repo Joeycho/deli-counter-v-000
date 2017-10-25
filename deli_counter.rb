@@ -4,9 +4,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     counter = 1
+      puts "The line is currently:"
     katz_deli.each do |person|
-      puts "current place is #{counter}"
-      puts "name is #{person}"
+      puts "#{counter}. "
+      puts "#{person}"
       counter +=1
     end
   end
