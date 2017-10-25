@@ -13,3 +13,8 @@ def line(katz_deli)
       puts tempstr
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  return "#{name}: #{katz_deli.length}"
+end
